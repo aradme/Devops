@@ -95,7 +95,7 @@
       if (board[i - 1][j - 1]) {
         result += 1;
       }
-    }
+    }//test
     //upper right diagonal
     if ((i - 1 >= 0 && j + 1 < board.length)) {
       if (board[i - 1][j + 1]) {
